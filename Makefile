@@ -17,7 +17,7 @@ endif
 
 .PHONY: all pyformat format pylint lint docs
 
-all: format lint
+all: format lint docs
 
 pyformat:
 	${YAPF} ${YAPF_FLAGS} -i ${PYTHON}
