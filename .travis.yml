@@ -4,5 +4,7 @@ python:
 install:
   - pip install -r requirements.txt
 script:
-  - make -s yapf
-  - make -s lint
+  - make yapf
+  - make lint
+after_success:
+  - pip install codecov
