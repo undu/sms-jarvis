@@ -37,3 +37,6 @@ docs:
 
 test:
 	echo 0 # Placeholder for the test command
+
+upload:
+	python setup.py sdist && python setup.py bdist_wheel && twine upload dist/*

@@ -3,6 +3,7 @@ Setup to publish this project in pip
 '''
 
 from os import path
+from codecs import open  # pylint: disable=redefined-builtin
 from setuptools import setup, find_packages
 
 HERE = path.abspath(path.dirname(__file__))
