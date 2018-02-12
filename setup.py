@@ -28,7 +28,7 @@ setup(
 
         # Indicate who your project is intended for
         'Intended Audience :: Developers',
-        'Topic :: SMS Handler :: Information Requests',
+        'Topic :: Communications',
 
         # Pick your license as you wish
         'License :: OSI Approved :: BSD-2 License',
