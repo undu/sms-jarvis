@@ -1,17 +1,20 @@
-from setuptools import setup, find_packages
-from codecs import open
+'''
+Setup to publish this project in pip
+'''
+
 from os import path
+from setuptools import setup, find_packages
 
-here = path.abspath(path.dirname(__file__))
+HERE = path.abspath(path.dirname(__file__))
 
-with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
-    long_description = f.read()
+with open(path.join(HERE, 'README.rst'), encoding='utf-8') as f:
+    LONG_DESCRIPTION = f.read()
 
 setup(
     name='sms-jarvis',
     version='0.0.1',
     description='SMS J.A.R.V.I.S.',
-    long_description=long_description,
+    long_description=LONG_DESCRIPTION,
     url='https://github.com/sms-jarvis/sms-jarvis',
     author='Oscar Forner Martinez',
     author_email='oscar.forner.martinez@gmail.com',
