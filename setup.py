@@ -3,7 +3,6 @@ Setup to publish this project in pip
 '''
 
 from os import path
-from codecs import open
 from setuptools import setup, find_packages
 
 HERE = path.abspath(path.dirname(__file__))
@@ -13,7 +12,7 @@ with open(path.join(HERE, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name='sms-jarvis',
-    version='0.0.2',
+    version='0.0.3',
     description='SMS J.A.R.V.I.S.',
     long_description=LONG_DESCRIPTION,
     url='https://github.com/sms-jarvis/sms-jarvis',
