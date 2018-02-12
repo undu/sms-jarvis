@@ -3,11 +3,12 @@ Setup to publish this project in pip
 '''
 
 from os import path
+from codecs import open
 from setuptools import setup, find_packages
 
 HERE = path.abspath(path.dirname(__file__))
 
-with open(path.join(HERE, 'README.rst'), encoding='utf-8') as f:
+with open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
     LONG_DESCRIPTION = f.read()
 
 setup(
