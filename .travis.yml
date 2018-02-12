@@ -8,7 +8,7 @@ install:
 script:
   - make yapf
   - make lint
-  - coverage run tests.py
+  - make test
 after_success:
   - pip install codecov
   - codecov

@@ -35,3 +35,5 @@ yapf:
 docs:
 	make -C docs html
 
+test:
+	echo 0 # Placeholder for the test command
